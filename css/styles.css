@@ -1,0 +1,107 @@
+.container{
+    width: 75%;
+    height: 100%;
+
+}
+
+header{
+    height: 133px;
+    width: 100%;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.flex-item{
+    height: 546px;
+    width: 593px;
+    left: 692px;
+    top: 133px;
+    border-radius: 0px;
+    background-color: #eee;
+    margin: 10px;
+
+}
+nav{
+    margin: 10px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: #eee;    
+}
+.left-nav{
+    width: 50%;
+}
+.right-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+
+}
+
+.right-nav button{
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.featured{
+  text-align: center;
+
+}
+
+.featured-banner{
+    height: 280px;
+    width: 100%;
+    left: 176px;
+    top: 1028px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #7E74E0 0%, #603AB3 100%);
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main-content{
+    margin-top: 40px;
+}
+
+.benefit-content{
+    margin: 30px 10px 30px 10px; 
+    
+}
+.benefit-text{
+    width: 250px;
+    height: 80px;
+    margin: 0px 10px 0px 10px;
+    background-color: #eee;
+}
+.benefit-flex{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.second{
+    margin-top: 30px;
+}
+
+.call-to-action{
+    background-color: #eee;
+    height: 430px;
+    width: 100%;
+    margin-top: 40px ;
+}
+
+.action-section{
+    width: 25%;
+    height: 370px;
+    margin: 40px 10px;
+    background-color: white;
+}
+
