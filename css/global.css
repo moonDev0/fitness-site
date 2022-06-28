@@ -2,6 +2,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-color: #F8F7FD;
+}
 
 .mga{
     margin: auto;
@@ -28,4 +31,23 @@
     
     background-color: #eee;
     
+}
+.jc{
+    justify-content: center;
+    align-items: center;
+}
+.jsa{
+    justify-content: space-around;
+}
+.jsb{
+    justify-content: space-between;
+}
+.jse{
+    justify-content: space-evenly;
+}
+.ac{
+    align-content: center;
+}
+.aic{
+    align-items: center;
 }

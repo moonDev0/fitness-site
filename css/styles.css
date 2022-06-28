@@ -4,7 +4,9 @@
 
 }
 
+
 header{
+    margin-top: 40px;
     height: 133px;
     width: 100%;
 }
@@ -20,9 +22,17 @@ header{
     left: 692px;
     top: 133px;
     border-radius: 0px;
-    background-color: #eee;
     margin: 10px;
 
+}
+.hero-right{
+    /* background-image: url(/images/image\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+.hero-right img{
+    width: 130%;
+    margin-top: -90px;
 }
 nav{
     margin: 10px;
@@ -30,10 +40,18 @@ nav{
 .logo{
     height: 50px;
     width: 50px;
-    background-color: #eee;    
+    margin-left: 10px;
+
 }
+
+  
+
+
 .left-nav{
     width: 50%;
+    color: #0A0909;
+    font-size: 20px;
+    font-weight: bolder; 
 }
 .right-nav{
     width: 50%;
@@ -48,10 +66,46 @@ nav{
     height: 30px;
     border: 0px;
     border-radius: 10px;
+    color: #9A6BFF;
+    font-weight: bolder;
+    background-color: #F8F7FD;
+}
+.right-nav button:not(last-child){
+    padding-top: 30px;
 }
 
+.right-nav button:last-child{
+    padding: 30px 70px ;
+    border: 2px solid  #9A6BFF;
+    border-radius: 50px;
+}
+
+
+.login{
+    color: #9A6BFF;
+    font-size: 20px;
+}
 .featured{
   text-align: center;
+
+}
+
+.featured span{
+    color: #0A090966;
+    font-weight: bolder;
+
+}
+.intro-top h1{
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+.intro-content{
+    font-size: 14px;
+    line-height: 16.1px;
+    width: 384px;
+    font-weight: 700;
+    color: #0A090980;
+    margin-bottom: 20px;
 
 }
 
@@ -65,13 +119,39 @@ nav{
     margin: auto;
     margin-top: 30px;
 }
-
+.featured-banner-left{
+    width: 50%;
+}
+.featured-logo{
+    margin-right: 20px;
+}
+.featured-content{
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
 .main-content{
     margin-top: 40px;
 }
+.intro-btn{
+    width: 400px;
+}
+.buttom{
+    margin-top: 20px;
+}
+.intro-btn button{
+    text-decoration: underline;
+    color: #0A0909;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #F8F7FD;
+}
 
 .benefit-content{
-    margin: 30px 10px 30px 10px; 
+    justify-content: space-around;
+    width: 100%;
     
 }
 .benefit-text{
@@ -105,3 +185,6 @@ nav{
     background-color: white;
 }
 
+.login-btn{
+    margin: 20px;
+}
