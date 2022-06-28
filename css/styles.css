@@ -7,7 +7,6 @@
 
 header{
     margin-top: 40px;
-    height: 133px;
     width: 100%;
 }
 
@@ -17,22 +16,16 @@ header{
 }
 
 .flex-item{
-    height: 546px;
-    width: 593px;
-    left: 692px;
-    top: 133px;
+    height: 70vh;
+    width: 50%;
     border-radius: 0px;
     margin: 10px;
 
 }
-.hero-right{
-    /* background-image: url(/images/image\ 1.svg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
-}
+
 .hero-right img{
-    width: 130%;
-    margin-top: -90px;
+    max-width: 100%;
+   
 }
 nav{
     margin: 10px;
@@ -148,6 +141,21 @@ nav{
     border: none;
     background-color: #F8F7FD;
 }
+.main-left{
+    background-image: url(/images/newimage\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main-header{
+    margin-top: 100px;
+}
+.main-right p{
+    max-width: 406px ;
+    line-height: 18px;
+    font-size: 16px;
+    color: #0A090966;font-weight: bolder;
+
+}
 
 .benefit-content{
     justify-content: space-around;
@@ -187,4 +195,10 @@ nav{
 
 .login-btn{
     margin: 20px;
+}
+
+@media screen and (max-width: 1386px) {
+    .container{
+        width: 90%;
+    }
 }
